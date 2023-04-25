@@ -1,0 +1,1097 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="16" passed="0" failed="0" skipped="16">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-25T02:30:58 IST" name="TrialSuite" finished-at="2023-03-25T02:30:59 IST" duration-ms="488">
+    <groups>
+    </groups>
+    <test started-at="2023-03-25T02:30:58 IST" name="ChromeTest" finished-at="2023-03-25T02:30:58 IST" duration-ms="225">
+      <class name="testNg.VerifyAddToCartBuyNow">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:testNg.VerifyAddToCartBuyNow@4f6ee6e4]" started-at="2023-03-25T02:30:58 IST" name="openBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1679691658619" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testNg.VerifyAddToCartBuyNow@4f6ee6e4]" started-at="2023-03-25T02:30:58 IST" name="launchBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1679691658740" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyAddToCart()[pri:0, instance:testNg.VerifyAddToCartBuyNow@4f6ee6e4]" started-at="2023-03-25T02:30:58 IST" name="verifyAddToCart" finished-at="2023-03-25T02:30:58 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[The path to the driver executable The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver. The latest version can be downloaded from https://chromedriver.storage.googleapis.com/index.html]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: The path to the driver executable The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver. The latest version can be downloaded from https://chromedriver.storage.googleapis.com/index.html
+at org.openqa.selenium.internal.Require$StateChecker.nonNull(Require.java:280)
+at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:132)
+at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:38)
+at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:231)
+at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:434)
+at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:127)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:46)
+at testNg.TestNg.openBrowser(TestNg.java:36)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddToCart -->
+        <test-method is-config="true" signature="gotoProductPage()[pri:0, instance:testNg.VerifyAddToCartBuyNow@4f6ee6e4]" started-at="2023-03-25T02:30:58 IST" name="gotoProductPage" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1679691658741" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gotoProductPage -->
+        <test-method is-config="true" signature="signOutAmazon()[pri:0, instance:testNg.VerifyAddToCartBuyNow@4f6ee6e4]" started-at="2023-03-25T02:30:58 IST" name="signOutAmazon" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1679691658750" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signOutAmazon -->
+        <test-method is-config="true" signature="gotoProductPage()[pri:0, instance:testNg.VerifyAddToCartBuyNow@4f6ee6e4]" started-at="2023-03-25T02:30:58 IST" name="gotoProductPage" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1679691658751" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gotoProductPage -->
+        <test-method signature="verifyBuyNowPageNoptionsDisplayed()[pri:0, instance:testNg.VerifyAddToCartBuyNow@4f6ee6e4]" started-at="2023-03-25T02:30:58 IST" name="verifyBuyNowPageNoptionsDisplayed" finished-at="2023-03-25T02:30:58 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[The path to the driver executable The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver. The latest version can be downloaded from https://chromedriver.storage.googleapis.com/index.html]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: The path to the driver executable The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver. The latest version can be downloaded from https://chromedriver.storage.googleapis.com/index.html
+at org.openqa.selenium.internal.Require$StateChecker.nonNull(Require.java:280)
+at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:132)
+at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:38)
+at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:231)
+at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:434)
+at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:127)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:46)
+at testNg.TestNg.openBrowser(TestNg.java:36)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBuyNowPageNoptionsDisplayed -->
+        <test-method is-config="true" signature="signOutAmazon()[pri:0, instance:testNg.VerifyAddToCartBuyNow@4f6ee6e4]" started-at="2023-03-25T02:30:58 IST" name="signOutAmazon" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1679691658771" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signOutAmazon -->
+        <test-method is-config="true" signature="closeBroswer()[pri:0, instance:testNg.VerifyAddToCartBuyNow@4f6ee6e4]" started-at="2023-03-25T02:30:58 IST" name="closeBroswer" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1679691658772" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBroswer -->
+        <test-method is-config="true" signature="closeBrowsers()[pri:0, instance:testNg.VerifyAddToCartBuyNow@4f6ee6e4]" started-at="2023-03-25T02:30:58 IST" name="closeBrowsers" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1679691658774" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowsers -->
+      </class> <!-- testNg.VerifyAddToCartBuyNow -->
+      <class name="testNg.VerifyAddToCart">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testNg.VerifyAddToCart@5e0826e7]" started-at="2023-03-25T02:30:58 IST" name="beforeClass" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1679691658659" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNg.VerifyAddToCart@5e0826e7]" started-at="2023-03-25T02:30:58 IST" name="beforeMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1679691658669" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyAddToCart()[pri:0, instance:testNg.VerifyAddToCart@5e0826e7]" started-at="2023-03-25T02:30:58 IST" name="verifyAddToCart" finished-at="2023-03-25T02:30:58 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[The path to the driver executable The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver. The latest version can be downloaded from https://chromedriver.storage.googleapis.com/index.html]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: The path to the driver executable The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver. The latest version can be downloaded from https://chromedriver.storage.googleapis.com/index.html
+at org.openqa.selenium.internal.Require$StateChecker.nonNull(Require.java:280)
+at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:132)
+at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:38)
+at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:231)
+at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:434)
+at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:127)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:46)
+at testNg.TestNg.openBrowser(TestNg.java:36)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddToCart -->
+        <test-method is-config="true" signature="verifyBuyNow()[pri:0, instance:testNg.VerifyAddToCart@5e0826e7]" started-at="2023-03-25T02:30:58 IST" name="verifyBuyNow" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1679691658683" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBuyNow -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNg.VerifyAddToCart@5e0826e7]" started-at="2023-03-25T02:30:58 IST" name="beforeMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1679691658684" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyBuyNow1()[pri:0, instance:testNg.VerifyAddToCart@5e0826e7]" started-at="2023-03-25T02:30:58 IST" name="verifyBuyNow1" finished-at="2023-03-25T02:30:58 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[The path to the driver executable The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver. The latest version can be downloaded from https://chromedriver.storage.googleapis.com/index.html]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: The path to the driver executable The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver. The latest version can be downloaded from https://chromedriver.storage.googleapis.com/index.html
+at org.openqa.selenium.internal.Require$StateChecker.nonNull(Require.java:280)
+at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:132)
+at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:38)
+at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:231)
+at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:434)
+at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:127)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:46)
+at testNg.TestNg.openBrowser(TestNg.java:36)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBuyNow1 -->
+        <test-method is-config="true" signature="verifyBuyNow()[pri:0, instance:testNg.VerifyAddToCart@5e0826e7]" started-at="2023-03-25T02:30:58 IST" name="verifyBuyNow" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1679691658696" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBuyNow -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:testNg.VerifyAddToCart@5e0826e7]" started-at="2023-03-25T02:30:58 IST" name="afterClass" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1679691658700" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- testNg.VerifyAddToCart -->
+      <class name="Test.VerifyAddToCart">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:Test.VerifyAddToCart@4f18837a]" started-at="2023-03-25T02:30:58 IST" name="openBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1679691658618" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:Test.VerifyAddToCart@4f18837a]" started-at="2023-03-25T02:30:58 IST" name="beforeClass" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1679691658727" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Test.VerifyAddToCart@4f18837a]" started-at="2023-03-25T02:30:58 IST" name="beforeMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1679691658732" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyAddToCart()[pri:0, instance:Test.VerifyAddToCart@4f18837a]" started-at="2023-03-25T02:30:58 IST" name="verifyAddToCart" finished-at="2023-03-25T02:30:58 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[The path to the driver executable The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver. The latest version can be downloaded from https://chromedriver.storage.googleapis.com/index.html]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: The path to the driver executable The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver. The latest version can be downloaded from https://chromedriver.storage.googleapis.com/index.html
+at org.openqa.selenium.internal.Require$StateChecker.nonNull(Require.java:280)
+at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:132)
+at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:38)
+at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:231)
+at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:434)
+at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:127)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:46)
+at testNg.TestNg.openBrowser(TestNg.java:36)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddToCart -->
+        <test-method is-config="true" signature="verifyBuyNow()[pri:0, instance:Test.VerifyAddToCart@4f18837a]" started-at="2023-03-25T02:30:58 IST" name="verifyBuyNow" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1679691658735" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBuyNow -->
+        <test-method signature="verifyBuyNow1()[pri:0, instance:Test.VerifyAddToCart@4f18837a]" started-at="2023-03-25T02:30:58 IST" name="verifyBuyNow1" finished-at="2023-03-25T02:30:58 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[The path to the driver executable The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver. The latest version can be downloaded from https://chromedriver.storage.googleapis.com/index.html]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: The path to the driver executable The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver. The latest version can be downloaded from https://chromedriver.storage.googleapis.com/index.html
+at org.openqa.selenium.internal.Require$StateChecker.nonNull(Require.java:280)
+at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:132)
+at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:38)
+at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:231)
+at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:434)
+at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:127)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:46)
+at testNg.TestNg.openBrowser(TestNg.java:36)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBuyNow1 -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Test.VerifyAddToCart@4f18837a]" started-at="2023-03-25T02:30:58 IST" name="beforeMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1679691658736" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="verifyBuyNow()[pri:0, instance:Test.VerifyAddToCart@4f18837a]" started-at="2023-03-25T02:30:58 IST" name="verifyBuyNow" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1679691658738" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBuyNow -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:Test.VerifyAddToCart@4f18837a]" started-at="2023-03-25T02:30:58 IST" name="afterClass" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1679691658739" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Test.VerifyAddToCart@4f18837a]" started-at="2023-03-25T02:30:58 IST" name="closeBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1679691658773" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Test.VerifyAddToCart -->
+      <class name="testNg.TestNg">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:testNg.TestNg@6356695f]" started-at="2023-03-25T02:30:58 IST" name="openBrowser" finished-at="2023-03-25T02:30:58 IST" duration-ms="57" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[The path to the driver executable The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver. The latest version can be downloaded from https://chromedriver.storage.googleapis.com/index.html]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: The path to the driver executable The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver. The latest version can be downloaded from https://chromedriver.storage.googleapis.com/index.html
+at org.openqa.selenium.internal.Require$StateChecker.nonNull(Require.java:280)
+at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:132)
+at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:38)
+at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:231)
+at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:434)
+at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:127)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:46)
+at testNg.TestNg.openBrowser(TestNg.java:36)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testNg.TestNg@6356695f]" started-at="2023-03-25T02:30:58 IST" name="beforeClass" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1679691658705" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNg.TestNg@6356695f]" started-at="2023-03-25T02:30:58 IST" name="beforeMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1679691658709" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test1()[pri:0, instance:testNg.TestNg@6356695f]" started-at="2023-03-25T02:30:58 IST" name="test1" finished-at="2023-03-25T02:30:58 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[The path to the driver executable The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver. The latest version can be downloaded from https://chromedriver.storage.googleapis.com/index.html]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: The path to the driver executable The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver. The latest version can be downloaded from https://chromedriver.storage.googleapis.com/index.html
+at org.openqa.selenium.internal.Require$StateChecker.nonNull(Require.java:280)
+at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:132)
+at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:38)
+at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:231)
+at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:434)
+at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:127)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:46)
+at testNg.TestNg.openBrowser(TestNg.java:36)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testNg.TestNg@6356695f]" started-at="2023-03-25T02:30:58 IST" name="afterMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1679691658716" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNg.TestNg@6356695f]" started-at="2023-03-25T02:30:58 IST" name="beforeMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1679691658717" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test2()[pri:0, instance:testNg.TestNg@6356695f]" started-at="2023-03-25T02:30:58 IST" name="test2" finished-at="2023-03-25T02:30:58 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[The path to the driver executable The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver. The latest version can be downloaded from https://chromedriver.storage.googleapis.com/index.html]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: The path to the driver executable The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver. The latest version can be downloaded from https://chromedriver.storage.googleapis.com/index.html
+at org.openqa.selenium.internal.Require$StateChecker.nonNull(Require.java:280)
+at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:132)
+at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:38)
+at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:231)
+at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:434)
+at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:127)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:46)
+at testNg.TestNg.openBrowser(TestNg.java:36)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testNg.TestNg@6356695f]" started-at="2023-03-25T02:30:58 IST" name="afterMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1679691658725" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:testNg.TestNg@6356695f]" started-at="2023-03-25T02:30:58 IST" name="afterClass" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1679691658726" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testNg.TestNg@6356695f]" started-at="2023-03-25T02:30:58 IST" name="closeBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1679691658773" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testNg.TestNg -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2023-03-25T02:30:58 IST" name="EdgeTest" finished-at="2023-03-25T02:30:59 IST" duration-ms="106">
+      <class name="testNg.VerifyAddToCartBuyNow">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:testNg.VerifyAddToCartBuyNow@4550bb58]" started-at="2023-03-25T02:30:58 IST" name="beforeSuite" finished-at="2023-03-25T02:30:58 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:testNg.VerifyAddToCartBuyNow@4550bb58]" started-at="2023-03-25T02:30:58 IST" name="openBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1679691658956" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testNg.VerifyAddToCartBuyNow@4550bb58]" started-at="2023-03-25T02:30:59 IST" name="launchBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1679691659021" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="gotoProductPage()[pri:0, instance:testNg.VerifyAddToCartBuyNow@4550bb58]" started-at="2023-03-25T02:30:59 IST" name="gotoProductPage" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1679691659022" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gotoProductPage -->
+        <test-method signature="verifyAddToCart()[pri:0, instance:testNg.VerifyAddToCartBuyNow@4550bb58]" started-at="2023-03-25T02:30:59 IST" name="verifyAddToCart" finished-at="2023-03-25T02:30:59 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[The path to the driver executable The path to the driver executable must be set by the webdriver.edge.driver system property; for more information, see https://docs.microsoft.com/en-us/microsoft-edge/webdriver-chromium/. The latest version can be downloaded from https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: The path to the driver executable The path to the driver executable must be set by the webdriver.edge.driver system property; for more information, see https://docs.microsoft.com/en-us/microsoft-edge/webdriver-chromium/. The latest version can be downloaded from https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/
+at org.openqa.selenium.internal.Require$StateChecker.nonNull(Require.java:280)
+at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:132)
+at org.openqa.selenium.edge.EdgeDriverService.access$000(EdgeDriverService.java:40)
+at org.openqa.selenium.edge.EdgeDriverService$Builder.findDefaultExecutable(EdgeDriverService.java:176)
+at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:434)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:41)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:38)
+at testNg.TestNg.openBrowser(TestNg.java:41)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddToCart -->
+        <test-method is-config="true" signature="signOutAmazon()[pri:0, instance:testNg.VerifyAddToCartBuyNow@4550bb58]" started-at="2023-03-25T02:30:59 IST" name="signOutAmazon" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1679691659026" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signOutAmazon -->
+        <test-method is-config="true" signature="gotoProductPage()[pri:0, instance:testNg.VerifyAddToCartBuyNow@4550bb58]" started-at="2023-03-25T02:30:59 IST" name="gotoProductPage" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1679691659026" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gotoProductPage -->
+        <test-method signature="verifyBuyNowPageNoptionsDisplayed()[pri:0, instance:testNg.VerifyAddToCartBuyNow@4550bb58]" started-at="2023-03-25T02:30:59 IST" name="verifyBuyNowPageNoptionsDisplayed" finished-at="2023-03-25T02:30:59 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[The path to the driver executable The path to the driver executable must be set by the webdriver.edge.driver system property; for more information, see https://docs.microsoft.com/en-us/microsoft-edge/webdriver-chromium/. The latest version can be downloaded from https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: The path to the driver executable The path to the driver executable must be set by the webdriver.edge.driver system property; for more information, see https://docs.microsoft.com/en-us/microsoft-edge/webdriver-chromium/. The latest version can be downloaded from https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/
+at org.openqa.selenium.internal.Require$StateChecker.nonNull(Require.java:280)
+at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:132)
+at org.openqa.selenium.edge.EdgeDriverService.access$000(EdgeDriverService.java:40)
+at org.openqa.selenium.edge.EdgeDriverService$Builder.findDefaultExecutable(EdgeDriverService.java:176)
+at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:434)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:41)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:38)
+at testNg.TestNg.openBrowser(TestNg.java:41)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBuyNowPageNoptionsDisplayed -->
+        <test-method is-config="true" signature="signOutAmazon()[pri:0, instance:testNg.VerifyAddToCartBuyNow@4550bb58]" started-at="2023-03-25T02:30:59 IST" name="signOutAmazon" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1679691659029" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signOutAmazon -->
+        <test-method is-config="true" signature="closeBroswer()[pri:0, instance:testNg.VerifyAddToCartBuyNow@4550bb58]" started-at="2023-03-25T02:30:59 IST" name="closeBroswer" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1679691659032" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBroswer -->
+        <test-method is-config="true" signature="closeBrowsers()[pri:0, instance:testNg.VerifyAddToCartBuyNow@4550bb58]" started-at="2023-03-25T02:30:59 IST" name="closeBrowsers" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1679691659033" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowsers -->
+      </class> <!-- testNg.VerifyAddToCartBuyNow -->
+      <class name="testNg.VerifyAddToCart">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testNg.VerifyAddToCart@1623b78d]" started-at="2023-03-25T02:30:58 IST" name="beforeClass" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1679691658960" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNg.VerifyAddToCart@1623b78d]" started-at="2023-03-25T02:30:58 IST" name="beforeMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1679691658965" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyAddToCart()[pri:0, instance:testNg.VerifyAddToCart@1623b78d]" started-at="2023-03-25T02:30:58 IST" name="verifyAddToCart" finished-at="2023-03-25T02:30:58 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[The path to the driver executable The path to the driver executable must be set by the webdriver.edge.driver system property; for more information, see https://docs.microsoft.com/en-us/microsoft-edge/webdriver-chromium/. The latest version can be downloaded from https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: The path to the driver executable The path to the driver executable must be set by the webdriver.edge.driver system property; for more information, see https://docs.microsoft.com/en-us/microsoft-edge/webdriver-chromium/. The latest version can be downloaded from https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/
+at org.openqa.selenium.internal.Require$StateChecker.nonNull(Require.java:280)
+at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:132)
+at org.openqa.selenium.edge.EdgeDriverService.access$000(EdgeDriverService.java:40)
+at org.openqa.selenium.edge.EdgeDriverService$Builder.findDefaultExecutable(EdgeDriverService.java:176)
+at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:434)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:41)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:38)
+at testNg.TestNg.openBrowser(TestNg.java:41)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddToCart -->
+        <test-method is-config="true" signature="verifyBuyNow()[pri:0, instance:testNg.VerifyAddToCart@1623b78d]" started-at="2023-03-25T02:30:58 IST" name="verifyBuyNow" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1679691658967" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBuyNow -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNg.VerifyAddToCart@1623b78d]" started-at="2023-03-25T02:30:58 IST" name="beforeMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1679691658968" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyBuyNow1()[pri:0, instance:testNg.VerifyAddToCart@1623b78d]" started-at="2023-03-25T02:30:58 IST" name="verifyBuyNow1" finished-at="2023-03-25T02:30:58 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[The path to the driver executable The path to the driver executable must be set by the webdriver.edge.driver system property; for more information, see https://docs.microsoft.com/en-us/microsoft-edge/webdriver-chromium/. The latest version can be downloaded from https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: The path to the driver executable The path to the driver executable must be set by the webdriver.edge.driver system property; for more information, see https://docs.microsoft.com/en-us/microsoft-edge/webdriver-chromium/. The latest version can be downloaded from https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/
+at org.openqa.selenium.internal.Require$StateChecker.nonNull(Require.java:280)
+at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:132)
+at org.openqa.selenium.edge.EdgeDriverService.access$000(EdgeDriverService.java:40)
+at org.openqa.selenium.edge.EdgeDriverService$Builder.findDefaultExecutable(EdgeDriverService.java:176)
+at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:434)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:41)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:38)
+at testNg.TestNg.openBrowser(TestNg.java:41)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBuyNow1 -->
+        <test-method is-config="true" signature="verifyBuyNow()[pri:0, instance:testNg.VerifyAddToCart@1623b78d]" started-at="2023-03-25T02:30:58 IST" name="verifyBuyNow" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1679691658971" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBuyNow -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:testNg.VerifyAddToCart@1623b78d]" started-at="2023-03-25T02:30:58 IST" name="afterClass" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1679691658972" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- testNg.VerifyAddToCart -->
+      <class name="Test.VerifyAddToCart">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:Test.VerifyAddToCart@6adbc9d]" started-at="2023-03-25T02:30:58 IST" name="openBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1679691658952" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:Test.VerifyAddToCart@6adbc9d]" started-at="2023-03-25T02:30:59 IST" name="beforeClass" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1679691659008" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Test.VerifyAddToCart@6adbc9d]" started-at="2023-03-25T02:30:59 IST" name="beforeMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1679691659010" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyAddToCart()[pri:0, instance:Test.VerifyAddToCart@6adbc9d]" started-at="2023-03-25T02:30:59 IST" name="verifyAddToCart" finished-at="2023-03-25T02:30:59 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[The path to the driver executable The path to the driver executable must be set by the webdriver.edge.driver system property; for more information, see https://docs.microsoft.com/en-us/microsoft-edge/webdriver-chromium/. The latest version can be downloaded from https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: The path to the driver executable The path to the driver executable must be set by the webdriver.edge.driver system property; for more information, see https://docs.microsoft.com/en-us/microsoft-edge/webdriver-chromium/. The latest version can be downloaded from https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/
+at org.openqa.selenium.internal.Require$StateChecker.nonNull(Require.java:280)
+at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:132)
+at org.openqa.selenium.edge.EdgeDriverService.access$000(EdgeDriverService.java:40)
+at org.openqa.selenium.edge.EdgeDriverService$Builder.findDefaultExecutable(EdgeDriverService.java:176)
+at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:434)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:41)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:38)
+at testNg.TestNg.openBrowser(TestNg.java:41)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddToCart -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Test.VerifyAddToCart@6adbc9d]" started-at="2023-03-25T02:30:59 IST" name="beforeMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1679691659013" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="verifyBuyNow()[pri:0, instance:Test.VerifyAddToCart@6adbc9d]" started-at="2023-03-25T02:30:59 IST" name="verifyBuyNow" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1679691659013" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBuyNow -->
+        <test-method signature="verifyBuyNow1()[pri:0, instance:Test.VerifyAddToCart@6adbc9d]" started-at="2023-03-25T02:30:59 IST" name="verifyBuyNow1" finished-at="2023-03-25T02:30:59 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[The path to the driver executable The path to the driver executable must be set by the webdriver.edge.driver system property; for more information, see https://docs.microsoft.com/en-us/microsoft-edge/webdriver-chromium/. The latest version can be downloaded from https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: The path to the driver executable The path to the driver executable must be set by the webdriver.edge.driver system property; for more information, see https://docs.microsoft.com/en-us/microsoft-edge/webdriver-chromium/. The latest version can be downloaded from https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/
+at org.openqa.selenium.internal.Require$StateChecker.nonNull(Require.java:280)
+at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:132)
+at org.openqa.selenium.edge.EdgeDriverService.access$000(EdgeDriverService.java:40)
+at org.openqa.selenium.edge.EdgeDriverService$Builder.findDefaultExecutable(EdgeDriverService.java:176)
+at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:434)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:41)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:38)
+at testNg.TestNg.openBrowser(TestNg.java:41)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBuyNow1 -->
+        <test-method is-config="true" signature="verifyBuyNow()[pri:0, instance:Test.VerifyAddToCart@6adbc9d]" started-at="2023-03-25T02:30:59 IST" name="verifyBuyNow" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1679691659016" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBuyNow -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:Test.VerifyAddToCart@6adbc9d]" started-at="2023-03-25T02:30:59 IST" name="afterClass" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1679691659017" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Test.VerifyAddToCart@6adbc9d]" started-at="2023-03-25T02:30:59 IST" name="closeBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1679691659033" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Test.VerifyAddToCart -->
+      <class name="testNg.TestNg">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:testNg.TestNg@c8c12ac]" started-at="2023-03-25T02:30:58 IST" name="beforeSuite" finished-at="2023-03-25T02:30:58 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:testNg.TestNg@c8c12ac]" started-at="2023-03-25T02:30:58 IST" name="openBrowser" finished-at="2023-03-25T02:30:58 IST" duration-ms="15" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[The path to the driver executable The path to the driver executable must be set by the webdriver.edge.driver system property; for more information, see https://docs.microsoft.com/en-us/microsoft-edge/webdriver-chromium/. The latest version can be downloaded from https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: The path to the driver executable The path to the driver executable must be set by the webdriver.edge.driver system property; for more information, see https://docs.microsoft.com/en-us/microsoft-edge/webdriver-chromium/. The latest version can be downloaded from https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/
+at org.openqa.selenium.internal.Require$StateChecker.nonNull(Require.java:280)
+at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:132)
+at org.openqa.selenium.edge.EdgeDriverService.access$000(EdgeDriverService.java:40)
+at org.openqa.selenium.edge.EdgeDriverService$Builder.findDefaultExecutable(EdgeDriverService.java:176)
+at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:434)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:41)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:38)
+at testNg.TestNg.openBrowser(TestNg.java:41)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testNg.TestNg@c8c12ac]" started-at="2023-03-25T02:30:58 IST" name="beforeClass" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1679691658975" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNg.TestNg@c8c12ac]" started-at="2023-03-25T02:30:58 IST" name="beforeMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1679691658977" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test1()[pri:0, instance:testNg.TestNg@c8c12ac]" started-at="2023-03-25T02:30:58 IST" name="test1" finished-at="2023-03-25T02:30:58 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[The path to the driver executable The path to the driver executable must be set by the webdriver.edge.driver system property; for more information, see https://docs.microsoft.com/en-us/microsoft-edge/webdriver-chromium/. The latest version can be downloaded from https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: The path to the driver executable The path to the driver executable must be set by the webdriver.edge.driver system property; for more information, see https://docs.microsoft.com/en-us/microsoft-edge/webdriver-chromium/. The latest version can be downloaded from https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/
+at org.openqa.selenium.internal.Require$StateChecker.nonNull(Require.java:280)
+at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:132)
+at org.openqa.selenium.edge.EdgeDriverService.access$000(EdgeDriverService.java:40)
+at org.openqa.selenium.edge.EdgeDriverService$Builder.findDefaultExecutable(EdgeDriverService.java:176)
+at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:434)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:41)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:38)
+at testNg.TestNg.openBrowser(TestNg.java:41)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testNg.TestNg@c8c12ac]" started-at="2023-03-25T02:30:58 IST" name="afterMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1679691658982" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNg.TestNg@c8c12ac]" started-at="2023-03-25T02:30:58 IST" name="beforeMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1679691658984" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test2()[pri:0, instance:testNg.TestNg@c8c12ac]" started-at="2023-03-25T02:30:58 IST" name="test2" finished-at="2023-03-25T02:30:58 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[The path to the driver executable The path to the driver executable must be set by the webdriver.edge.driver system property; for more information, see https://docs.microsoft.com/en-us/microsoft-edge/webdriver-chromium/. The latest version can be downloaded from https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: The path to the driver executable The path to the driver executable must be set by the webdriver.edge.driver system property; for more information, see https://docs.microsoft.com/en-us/microsoft-edge/webdriver-chromium/. The latest version can be downloaded from https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/
+at org.openqa.selenium.internal.Require$StateChecker.nonNull(Require.java:280)
+at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:132)
+at org.openqa.selenium.edge.EdgeDriverService.access$000(EdgeDriverService.java:40)
+at org.openqa.selenium.edge.EdgeDriverService$Builder.findDefaultExecutable(EdgeDriverService.java:176)
+at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:434)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:41)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:38)
+at testNg.TestNg.openBrowser(TestNg.java:41)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testNg.TestNg@c8c12ac]" started-at="2023-03-25T02:30:58 IST" name="afterMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1679691658995" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:testNg.TestNg@c8c12ac]" started-at="2023-03-25T02:30:58 IST" name="afterClass" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1679691658997" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testNg.TestNg@c8c12ac]" started-at="2023-03-25T02:30:59 IST" name="closeBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1679691659032" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:testNg.TestNg@c8c12ac]" started-at="2023-03-25T02:30:59 IST" name="afterSuite" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1679691659068" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- testNg.TestNg -->
+    </test> <!-- EdgeTest -->
+  </suite> <!-- TrialSuite -->
+</testng-results>
